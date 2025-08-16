@@ -86,7 +86,9 @@
 
         .header {
             font-size: 40px;
-            margin: 20px 0;
+            margin-bottom: 10px;
+            margin-top: 20px;
+            text-align: left;
             color: #285C4D;
         }
 
@@ -96,29 +98,29 @@
             margin: 0 auto;
         }
 
-        .detail {
-            font-size: 20px;
-            margin: 10px 0 10px 25px;
-        }
-
-        ul {
-            padding: 0;
-        }
-
         .image-box {
             text-align: center;
-            margin-top: 25px;
+            margin-top: 40px;
         }
 
         .image-box img {
             max-width: 100%;
-            height: 360px;
+            height: 400px;
+            margin-left: 15px;
+        }
+
+        .image-box2 img {
+            max-width: 100%;
+            height: 180px;
+            margin-top: 15px;
+            margin-left: 15px;
         }
 
         .social-icons {
             display: flex;
             justify-content: center;
             margin-top: 10px;
+            margin-left: 15px;
         }
 
         .social-icons a {
@@ -130,17 +132,6 @@
 
         .social-icons a:hover {
             color: #75C5E8;
-        }
-
-        .download-btn {
-            background-color: #285C4D;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            margin-top: 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            display: inline-block;
         }
 
         @media (min-width: 768px) {
@@ -160,85 +151,29 @@
                 justify-content: center;
                 align-items: center;
                 margin-top: 25px;
-                max-width: 40%;
+                max-width: 100%;
             }
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="body">
-            <div class="header">Education</div>
+
             <div>
-                M.S. Computer Science, Tulane University, 2025 (expected)
-                <br>
-                B.S. Information Systems and Analytics, Louisiana State University, 2023
+                <iframe src="https://arturoAltamirano.github.io/arturito/static/HW4.5_arturoAltamirano.html" width="100%" height="800px" style="border: none;"></iframe>
             </div>
 
-            <div class="header">Certifications</div>
-            <div>
-                AWS Solutions Architect Associate
-                <br>
-                VMWare Data Center Virtualization Associate
+            <div class="header">
+                Support Vector Machines
             </div>
 
-            <div class="header">Experience</div>
             <div>
-                Building Information Intern, Gallo Mechanical, 05/2025 - 08/2025
-                <div class="detail">
-                    <ul>
-                        <li>Developed custom tools for Autodesk Revit using the integrated API.</li>
-                        <li>Maintained the operation of facilities by administering a Metasys WAN with ~30,000 sensor-level nodes.</li>
-                        <li>Generated graphical models of and control configuration templates for various industrial equipment such as Boilers and Air Handling Units.</li>
-                    </ul>
-                </div>
-
-                Systems Engineering Intern, Syncom Space Services, 05/2024 - 08/2024
-                <div class="detail">
-                    <ul>
-                        <li>Worked beneath the advice of a senior Systems Engineer in the Operations and Maintenance department at the NASA Michoud Assembly facility.</li>
-                        <li>Maintained the operation of facilities by administering a Metasys WAN with ~30,000 sensor-level nodes.</li>
-                        <li>Generated graphical models of and control configuration templates for various industrial equipment such as Boilers and Air Handling Units.</li>
-                    </ul>
-                </div>
-
-                Information Technology Intern, GMFS Mortgage, 05/2022 - 08/2023
-                <div class="detail">
-                    <ul>
-                        <li>Provided technical support for approximately 300 employees by resolving ServiceDesk tickets ranging from locked accounts to faulty hardware.</li>
-                        <li>Established and maintained the operation of hardware ranging from employee desktops to industrial routers which handled company-wide traffic.</li>
-                        <li>Communicated with various vendor services to maintain software licensing.</li>
-                    </ul>
-                </div>
-
+                Support Vector Machines are supervised models that can be used for regression analysis and, in this case, augmented linear classification.
             </div>
 
-            <div class="header">Skills - Hardware</div>
-            <div>
-                Hardware: Cloud Computing (AWS Elastic Beanstalk, RDS, EC2), Manufacturing Computing, HVAC and
-                Industrial Building Automation (JCI Metasys), BACnet Communications (MS/TP, IP)
-            </div>
-
-            <div class="header">Skills - Technologies</div>
-            <div>
-                Python (Flask, Frozen-Flask, NumPy, Seaborne, TensorFlow, PyTorch), C/C++,
-                Git, Linux/Unix, MySQL, NoSQL, HTML, CSS
-            </div>
         </div>
-
-        <div class="images">
-
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/arturo-altamirano-462a26180/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/arturoAltamirano" target="_blank"><i class="fab fa-github"></i></a>
-            </div>
-
-            <a href="https://arturoAltamirano.github.io/arturito/static/ArturoAltamiranoResume.pdf" download="resume.pdf" class="download-btn">Resume Download</a>
-        </div>
-    </div>  
-</body>
-</html>
-
 
     </div>
 </body>
