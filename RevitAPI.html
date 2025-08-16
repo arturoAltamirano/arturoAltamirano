@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>  - Home</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: black;
+            z-index: 0;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #285C4D;
+            margin-bottom: 10px;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        nav a:hover {
+            color: #78BE20;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            padding-top: 10px; /* Ensure content is not hidden under the nav */
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="overlay"></div>
+    <nav>
+        <a href="/arturito/index.html">Home</a>
+        <a href="/arturito/CV.html">Resume</a>
+        <a href="/arturito/extra.html">Blog</a>
+    </nav>
+    <div class="content">
+        
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 25px;
+            color: white;
+            margin-top: 25px;
+            padding: 20px;
+            background-color: #333;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            max-width: 1500px;
+            margin: 0 auto;
+        }
+
+        .header {
+            font-size: 40px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+            text-align: left;
+            color: #285C4D;
+        }
+
+        .body {
+            text-align: justify;
+            max-width: 60%;
+            margin: 0 auto;
+        }
+
+        .image-box {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .image-box img {
+            max-width: 100%;
+            height: 400px;
+            margin-left: 15px;
+        }
+
+        .image-box2 img {
+            max-width: 100%;
+            height: 180px;
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            margin-left: 15px;
+        }
+
+        .social-icons a {
+            color: white;
+            font-size: 24px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            color: #75C5E8;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+
+            .body {
+                max-width: 60%;
+            }
+
+            .images {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 25px;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="body">
+            <div class="header">
+                Foundations - GalloTools
+            </div>
+
+            <div>
+                Revit is a BIM software than enables engineers to model and design any sort of pre-construction schematics
+                of buildings or associated infrastructure. There is an API that enables a developer to program additional tools
+                to perform essentially any additional action within the software. I, along with another classmate from Tulane, was
+                brought on for the summer to help improve these tools, known as GalloTools.
+            </div>
+
+            <div class="header">
+                The Revit API
+            </div>
+
+            <div>
+                This software is similair to designing a web page or dynamic/static application like this one. 
+                There are visual elements like buttons and windows, and then backend files designed to manipulate data or user input.
+                While employed at Gallo, I designed and developed nearly a dozen different files designed to make engineers 
+                lives easier with custom tools. Below are individual examples of some of my favorite tools.  
+            </div>
+
+            <div class="header">
+                Dockable Pane
+            </div>
+
+            <div>
+            The Dockable Pane is essentially an anchorable persistent pop-up window designed to display information from previous tasks.
+            For example, an engineer may filter all pipes within a shematic by material and general application,
+            the resulting pipes from this filtration are included in the pane, and a hyperlink to their cordinates will
+            take you to the pipe's coordinates within the schematic. 
+                
+            </div>
+
+            <div class="image-box">
+                <img src="https://arturoAltamirano.github.io/arturito/static/autodesk.png" alt="Description of Image 1">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

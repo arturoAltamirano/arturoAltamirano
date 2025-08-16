@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>  - Home</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: black;
+            z-index: 0;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #285C4D;
+            margin-bottom: 10px;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        nav a:hover {
+            color: #78BE20;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            padding-top: 10px; /* Ensure content is not hidden under the nav */
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="overlay"></div>
+    <nav>
+        <a href="/arturito/index.html">Home</a>
+        <a href="/arturito/CV.html">Resume</a>
+        <a href="/arturito/extra.html">Blog</a>
+    </nav>
+    <div class="content">
+        
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 25px;
+            color: white;
+            margin-top: 25px;
+            padding: 20px;
+            background-color: #333;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            max-width: 1500px;
+            margin: 0 auto;
+        }
+
+        .header {
+            font-size: 40px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+            text-align: left;
+            color: #285C4D;
+        }
+
+        .body {
+            text-align: justify;
+            max-width: 60%;
+            margin: 0 auto;
+        }
+
+        .image-box {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .image-box img {
+            max-width: 100%;
+            height: 400px;
+            margin-left: 15px;
+        }
+
+        .image-box2 img {
+            max-width: 100%;
+            height: 180px;
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            margin-left: 15px;
+        }
+
+        .social-icons a {
+            color: white;
+            font-size: 24px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            color: #75C5E8;
+        }
+
+        .row {
+            display: flex;          /* makes children line up horizontally */
+            justify-content: flex-start;  /* aligns items to the left */
+            gap: 20px;              /* optional spacing between images */
+        }
+
+        .image-box img {
+            width: auto;           /* control size */
+            height: auto;
+            display: block;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+
+            .body {
+                max-width: 60%;
+            }
+
+            .images {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 25px;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="body">
+            <div class="header">
+                Foundations
+            </div>
+
+            <div>
+                While working at the NASA Michoud Assembly Facility, I interacted with the Johnson Controls family of controllers. As well as Johnson Controls Metasys software. 
+                I really enjoyed seeing how these devices worked and learning how facilities are networked into a centrally controllable site.
+            </div>
+
+            <div class="header">
+                Physical Devices
+            </div>
+
+            <div>
+                There are 3 main devices in the Johnson networking solution. The FEC or Field Equipment Controller is a device level controller which essentially gathers all sensor output 
+                from a given assembly or machine. A modern unit is pictured left below, and a slightly older unit pictured right. 
+            </div>
+
+            <div class="row">
+
+                <div class="image-box">
+                    <img src="https://arturoAltamirano.github.io/arturito/static/controller.png" alt="Description of Image 1">
+                </div>
+
+                <div class="image-box">
+                    <img src="https://arturoAltamirano.github.io/arturito/static/controller2.png" alt="Description of Image 2">
+                </div>
+
+            </div>
+
+            <div class="header">
+                Graphics
+            </div>
+
+            <div>
+            I worked on or created ~30 graphics within the JCI Metasys agent used to monitor machinery and various assemblies throughout the facility.
+            These graphics are facilitated by a central server,and are rendered to stationary personel to monitor and control in coordination with technicians in the field.
+            An example graphic with a series of AHUs undergoing repair is displayed below.
+            <div>
+
+            <div class="image-box">
+                <img src="https://arturoAltamirano.github.io/arturito/static/graphics.png" alt="Description of Image 1">
+            </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
