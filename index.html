@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        body {
+        body 
+        {
             font-family: Arial, sans-serif;
             font-size: 25px;
             color: white;
@@ -15,14 +16,16 @@
             background-color: #333;
         }
 
-        .container {
+        .container 
+        {
             display: flex;
             flex-direction: column;
             max-width: 1500px;
             margin: 0 auto;
         }
 
-        .header {
+        .header 
+        {
             font-size: 40px;
             margin-bottom: 10px;
             margin-top: 20px;
@@ -30,11 +33,21 @@
             color: #285C4D;
         }
 
-        .body {
+        .body 
+        {
             text-align: justify;
-            max-width: 60%;
+            max-width: 100%; /* changed from 60% */
             margin: 0 auto;
+            width: 100%; /* ensure it uses full width */
         }
+
+        iframe 
+        {
+            width: 100%;
+            height: 100vh; /* fills full viewport height */
+            border: none;
+        }
+
 
     </style>
 </head>
@@ -44,11 +57,11 @@
         <div class="body">
 
             <div class="header">
-                Support Vector Machines
+                Arturo Altamirano Final Project
             </div>
 
             <div>
-                Support Vector Machines are supervised models that can be used for regression analysis and, in this case, augmented linear classification.
+                Prepared for Data Science 3630 at Tulane University 
             </div>
 
             <div>
@@ -59,4 +72,5 @@
 
     </div>
 </body>
+
 </html>
