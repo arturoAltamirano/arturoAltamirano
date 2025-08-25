@@ -7510,7 +7510,7 @@ button.jp-Dialog-close-button {
   background-color: var(--jp-inverse-layout-color1);
 }
 
-[data-jp-theme-light='true'] .jp-RenderedImage img.jp-needs-dark-background {
+[data-jp-theme-dark='true'] .jp-RenderedImage img.jp-needs-dark-background {
   background-color: var(--jp-inverse-layout-color1);
 }
 
@@ -10600,7 +10600,7 @@ a.anchor-link {
       fontFamily: window
         .getComputedStyle(document.body)
         .getPropertyValue("--jp-ui-font-family"),
-      theme: document.querySelector("body[data-jp-theme-light='true']")
+      theme: document.querySelector("body[data-jp-theme-dark='true']")
         ? "default"
         : "dark",
     });
@@ -10767,7 +10767,7 @@ a.anchor-link {
   }
 </style>
 <!-- End of mermaid configuration --></head>
-<body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Dark">
+<body class="jp-Notebook" data-jp-theme-dark="true" data-jp-theme-name="JupyterLab Dark">
 <main><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=f9499a2c">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
