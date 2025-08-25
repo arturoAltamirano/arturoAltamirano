@@ -16,6 +16,17 @@
             margin: 0;
         }
 
+        .top-bar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: black;
+            z-index: 1000;
+            text-align: center;
+            padding: 20px 10px;
+            transition: all 0.3s ease;
+        }
+
         .header 
         {
             text-align: center;
@@ -55,11 +66,14 @@
     <div class="container">
 
         <div class="top-bar">
+
             <div class="header">Cancer and Industrialization</div>
             <div class="subtext">Prepared for Intro to Data Science 3160 at Tulane University by Arturo Altamirano</div>
+        
         </div>
 
         <div class="body">
+
             <iframe 
                 src="https://arturoAltamirano.github.io/arturoAltamirano/polutionLouisiana.html" 
                 width="100%" 
@@ -67,9 +81,30 @@
                 style="border: none; background-color: black;" 
                 allowtransparency="true">
             </iframe>
+
         </div>
 
     </div>
+
+    <!-- Some java to minimize scroll bar (took this from the course website) -->
+    <script>
+
+    window.addEventListener('scroll', function () 
+    {
+        const topBar = document.querySelector('.top-bar');
+        
+        if (window.scrollY > 50) 
+        {
+            topBar.classList.add('shrink');
+        } 
+        else 
+        {
+            topBar.classList.remove('shrink');
+        }
+    });
+
+    </script>
+
 </body>
 
 
