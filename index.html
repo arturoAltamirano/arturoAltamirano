@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
     <style>
 
         .container 
@@ -58,8 +60,30 @@
             color: black;
         }
 
+        .top-bar.shrink 
+        {
+            padding: 10px 10px;
+        }
+
+        .top-bar.shrink .header 
+        {
+            font-size: 1.2em;
+        }   
+
+        .top-bar.shrink .subtext 
+        {
+            font-size: 0.8em;
+        }
+
+        .subtext 
+        {
+            font-size: 1em;
+            margin-top: 5px;
+            transition: font-size 0.3s ease;
+        }
 
     </style>
+
 </head>
 
 <body>
@@ -106,6 +130,5 @@
     </script>
 
 </body>
-
 
 </html>
